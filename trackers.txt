@@ -5,45 +5,161 @@
 # Based on: https://gist.github.com/dhh/360f4dc7ddbce786f8e82b97cdad9d20
 # License: MIT (https://github.com/stefanwichmann/emailtrackers/blob/master/LICENSE)
 
-openrate.aweber.com
-bl-1.com
-mailstat.us
-tracking.cirrusinsight.com
-close.com
-rs6.net
-contactmonkey.com
-convertkit-mail.com
-portal.criticalimpact.com
-emarsys.com
-zen.sr
-email81.com
-getresponse.com
-growthdot.com
-click.icptrack.com
-via.intercom.io
-intercom-mail.com
-emltrk.com
-list-manage.com
-mjt.lu
-getmailspring.com
-mailtrack.io
-mltrk.io
-mandrillapp.com
-resources.marketo.com
-email.mixmax.com
-track.mixmax.com
-api.mixpanel.com
-nethunt.com
-app.outreach.io
-phplist.com
-polymail.io
-pstmrk.it
-returnpath.net
-sailthru.com
-nova.collect.igodigital.com
-mailfoogae.appspot.com
-r.superhuman.com
-na5.thunderhead.com
-yamm-track.appspot
-t.yesware.com
-futuresimple.com
+# AWeber
+||openrate.aweber.com^
+
+# Bananatag
+||bl-1.com^
+
+# Boomerang
+||mailstat.us^
+
+# Campaign Monitor
+||cmail*.com^
+
+# Cirrus Insight
+||tracking.cirrusinsight.com^
+
+# Close
+||close.com^
+
+# Constant Contact
+||rs6.net^
+
+# ContactMoney
+||contactmonkey.com^
+
+# ConvertKit
+||convertkit-mail.com^
+
+# Critical Impact
+||portal.criticalimpact.com^
+
+# Emarsys
+||emarsys.com^
+||emarsys.net^
+
+# Gem
+||zen.sr^
+
+# Getnotify
+||email81.com^
+
+GetResponse
+||getresponse.com^
+
+# GrowthDot
+||growthdot.com^
+
+# Hubspot
+||hubspotemail^
+||hubspotfree^
+||signaux^
+||senal^
+||sidekickopen^
+||sigopn^
+
+# iContact
+||click.icptrack.com^
+
+# Intercom
+||via.intercom.io^
+||intercom-mail.com^
+
+# Litmus
+||emltrk.com^
+
+# Mailchimp
+||list-manage.com^
+
+# Mailgun
+||email.mailgun.*
+||email.mg.*
+
+# Mailjet
+||mjt.lu^
+
+# Mailspring
+||getmailspring.com^
+
+# MailTrack
+||mailtrack.io^
+||mltrk.io^
+
+# Mandrill
+||mandrillapp.com^
+
+# Marketo
+||resources.marketo.com^
+
+# MixMax
+||email.mixmax.com^
+||track.mixmax.com^
+
+# Mixpanel
+||api.mixpanel.com^
+
+# NetHunt
+||nethunt.co*
+
+# Outreach
+||app.outreach.io^
+
+# phpList
+||phplist.com^
+
+# Polymail
+||polymail.io^
+
+# Postmark
+||pstmrk.it^
+
+# Return Path
+||returnpath.net^
+
+# Sailthru
+||sailthru.com^
+
+# Salesforce
+||nova.collect.igodigital.com^
+
+# Streak
+||mailfoogae.appspot.com^
+
+# Superhuman
+||r.superhuman.com^
+
+# Thunderhead
+||na5.thunderhead.com^
+
+# YAMM
+||yamm-track.appspot^
+
+# Yesware
+||t.yesware.com^
+
+# Zendesk Sell
+||futuresimple.com^
+
+## From the comments
+
+# Canary Mail
+||pixels.canarymail.io^
+
+# Tribedone
+||tribedone.org^
+
+# Phish Check
+||phishcheck.me^
+
+# SNOV.io
+||sgndrp.online^
+
+# Sendinblue
+||sendibt*.com^
+
+# Wix
+||shoutout.wix.com^
+
+# Amazon SES
+r.*.awstrack.me^
