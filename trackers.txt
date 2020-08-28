@@ -15,7 +15,7 @@
 ||mailstat.us^
 
 # Campaign Monitor
-||cmail*.com^
+/cmail(\d+)\.com/
 
 # Cirrus Insight
 ||tracking.cirrusinsight.com^
@@ -73,8 +73,7 @@ GetResponse
 ||list-manage.com^
 
 # Mailgun
-||email.mailgun.*
-||email.mg.*
+/email\.(mailgun|mg)(.*)/
 
 # Mailjet
 ||mjt.lu^
@@ -100,7 +99,7 @@ GetResponse
 ||api.mixpanel.com^
 
 # NetHunt
-||nethunt.co*
+/nethunt\.co(.*)/
 
 # Outreach
 ||app.outreach.io^
@@ -156,7 +155,7 @@ GetResponse
 ||sgndrp.online^
 
 # Sendinblue
-/sendibt(\d).com/
+/sendibt(\d)\.com/
 
 # Wix
 ||shoutout.wix.com^
