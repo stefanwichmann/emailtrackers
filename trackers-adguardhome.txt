@@ -1,167 +1,177 @@
 # Title: List of email trackers
-# Description: Hostlist for spy pixels in email
+# Description: Hostlist for Pi Hole to block spy pixels in email
 # Website: https://github.com/stefanwichmann/emailtrackers
 # Repository: https://github.com/stefanwichmann/emailtrackers
 # Based on: https://gist.github.com/dhh/360f4dc7ddbce786f8e82b97cdad9d20
 # License: MIT (https://github.com/stefanwichmann/emailtrackers/blob/master/LICENSE)
 
+# Active campaign
+/lt\.php(.*)/
+
 # AWeber
-||openrate.aweber.com^
+/openrate\.aweber\.com/
 
 # Bananatag
-||bl-1.com^
+/bl-1\.com/
 
 # Boomerang
-||mailstat.us^
+/mailstat\.us/
 
 # Campaign Monitor
 /cmail(\d+)\.com/
 
 # Cirrus Insight
-||tracking.cirrusinsight.com^
+/tracking\.cirrusinsight\.com/
 
 # Close
-||close.com^
+/close\.com/
 
 # Constant Contact
-||rs6.net^
+/rs6\.net/
 
 # ContactMoney
-||contactmonkey.com^
+/contactmonkey\.com/
 
 # ConvertKit
-||convertkit-mail.com^
+/convertkit-mail\.com/
 
 # Critical Impact
-||portal.criticalimpact.com^
+/portal\.criticalimpact\.com/
 
 # Emarsys
-||emarsys.com^
-||emarsys.net^
+/emarsys\.com/
+/emarsys\.net/
 
 # Gem
-||zen.sr^
+/zen\.sr/
 
 # Getnotify
-||email81.com^
+/email81\.com/
 
 GetResponse
-||getresponse.com^
+/getresponse\.com/
 
 # GrowthDot
-||growthdot.com^
+/growthdot\.com/
+
+# Front
+/app\.frontapp\.com/
+/web\.frontapp\.com/
 
 # Hubspot
-||hubspotemail^
-||hubspotfree^
-||signaux^
-||senal^
-||sidekickopen^
-||sigopn^
+/t\.(hubspotemail|hubspotfree|signaux|senal|sidekickopen|sigopn)/
 
 # iContact
-||click.icptrack.com^
+/click\.icptrack\.com/
 
 # Intercom
-||via.intercom.io^
-||intercom-mail.com^
+/via\.intercom\.io/
+/intercom-mail\.com/
 
 # Litmus
-||emltrk.com^
+/emltrk\.com/
 
 # Mailchimp
-||list-manage.com^
+/list-manage\.com/
 
 # Mailgun
 /email\.(mailgun|mg)(.*)/
 
 # Mailjet
-||mjt.lu^
+/mjt\.lu/
 
 # Mailspring
-||getmailspring.com^
+/getmailspring\.com/
 
 # MailTrack
-||mailtrack.io^
-||mltrk.io^
+/mailtrack\.io/
+/mltrk\.io/
 
 # Mandrill
-||mandrillapp.com^
+/mandrillapp\.com/
 
 # Marketo
-||resources.marketo.com^
+/resources\.marketo\.com/
 
 # MixMax
-||email.mixmax.com^
-||track.mixmax.com^
+/(email|track)\.mixmax\.com/
 
 # Mixpanel
-||api.mixpanel.com^
+/api\.mixpanel\.com/
 
 # NetHunt
 /nethunt\.co(.*)/
 
+# Newton
+/tr\.cloudmagic\.com/
+
 # Outreach
-||app.outreach.io^
+/app\.outreach\.io/
 
 # phpList
-||phplist.com^
+/phplist\.com/
 
 # Polymail
-||polymail.io^
+/polymail\.io/
 
 # Postmark
-||pstmrk.it^
+/pstmrk\.it/
 
 # Return Path
-||returnpath.net^
+/returnpath\.net/
 
 # Sailthru
-||sailthru.com^
+/sailthru\.com/
 
 # Salesforce
-||nova.collect.igodigital.com^
+/nova\.collect\.igodigital\.com/
 
 # Streak
-||mailfoogae.appspot.com^
+/mailfoogae\.appspot\.com/
 
 # Superhuman
-||r.superhuman.com^
+/r\.superhuman\.com/
 
 # Thunderhead
-||na5.thunderhead.com^
+/na5\.thunderhead\.com/
 
 # YAMM
-||yamm-track.appspot^
+/yamm-track\.appspot/
 
 # Yesware
-||t.yesware.com^
+/t\.yesware\.com/
 
 # Zendesk Sell
-||futuresimple.com^
+/futuresimple\.com/
 
 ## From the comments
 
 # Canary Mail
-||pixels.canarymail.io^
+/pixels\.canarymail\.io/
 
 # Tribedone
-||tribedone.org^
+/tribedone\.org/
 
 # Phish Check
-||phishcheck.me^
+/phishcheck\.me/
 
 # SNOV.io
-||sgndrp.online^
+/sgndrp\.online/
 
 # Sendinblue
 /sendibt(\d)\.com/
 
 # Wix
-||shoutout.wix.com^
+/shoutout\.wix\.com/
 
 # Amazon SES
 /r.(us-east-2|us-east-1|us-west-2|ap-south-1|ap-northeast-2|ap-southeast-1|ap-southeast-2|ap-northeast-1|ca-central-1|eu-central-1|eu-west-1|eu-west-2|sa-east-1|us-gov-west-1).awstrack.me/
 
 # Oracle Bluekai
-||tags.bluekai.com^
+/tags\.bluekai\.com/
+
+# Home away
+/sp\.trk\.homeaway\.com/
+
+# Mailbutler
+/bowtie\.mailbutler\.io/
